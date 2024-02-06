@@ -1,0 +1,19 @@
+# to create the vitual env 
+python -m venv .venv 
+
+# to activate the env
+source .venv/bin/activate 
+# source .venv/Scripts/activate    # on my windows machine
+
+# how to create a requirements.txt file 
+pip freeze > requirements.txt
+
+# how to deactivate the env 
+deactivate
+
+# how to delete the env
+rm -rf venv 
+
+# how to uses requirements.txt file to install packages 
+pip install -r requirements.txt 
+
