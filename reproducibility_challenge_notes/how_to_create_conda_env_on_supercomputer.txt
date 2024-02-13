@@ -1,0 +1,5 @@
+conda create --name genome_wars
+conda activate genome_wars 
+
+# install conterminator to the conda env
+conda install -c bioconda conterminator
