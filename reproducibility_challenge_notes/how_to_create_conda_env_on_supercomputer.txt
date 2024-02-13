@@ -3,3 +3,6 @@ conda activate genome_wars
 
 # install conterminator to the conda env
 conda install -c bioconda conterminator
+
+# how to install bipython 
+conda install -c conda-forge biopython
