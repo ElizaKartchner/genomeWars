@@ -1,4 +1,7 @@
 .venv
 .vscode
 microbial_genomes/
-GUNC_DB
+GUNC/gunc_db_progenomes2.1.dmnd
+GUNC/run_1_output/
+GUNC/run_2_output/
+NCBI_sequenceIDs.txt

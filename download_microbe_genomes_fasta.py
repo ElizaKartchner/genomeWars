@@ -22,7 +22,7 @@ def download_genomes(email, refseq_id):
     output_dir = f"microbial_genomes/fasta_files"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    filename = os.path.join(output_dir, f"{sequence.id}.fasta")
+    filename = os.path.join(output_dir, f"{sequence.id.replace(".", "_")}.fa")
     with open(filename, "w") as output_file:
         SeqIO.write(sequence, output_file, "fasta")
     print(f"Genome {sequence.id} downloaded and saved as {filename}")
@@ -35,7 +35,16 @@ if __name__ == "__main__":
     args = parser.parse_args()
     email_address = args.email
     
-    refseq_ids = ["NC_014122.1"]
+    refseq_ids = ["NC_014122.1",
+                  "NZ_CP019964.1",
+                  "NZ_CP030847.1",
+                  "NZ_AP011528.1",
+                  "NZ_CP023154.1",
+                  "NC_013741.1",
+                  "NC_008213.1",
+                  "NC_021058.1",
+                  "NZ_CP008888.1",
+                  "NC_012632.1",]
 
     for refeq_id in refseq_ids:
         download_genomes(email_address, refeq_id)
