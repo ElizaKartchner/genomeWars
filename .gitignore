@@ -2,9 +2,8 @@
 .vscode
 microbial_genomes/
 GUNC/gunc_db_progenomes2.1.dmnd
-GUNC/run_1_output/
-GUNC/run_2_output/
-GUNC/run_3_output/
+GUNC/run_*
 NCBI_sequenceIDs.txt
 NCBI_sequenceIDs_smaller.txt
 Conterminator/*
+FCS-GX/*
