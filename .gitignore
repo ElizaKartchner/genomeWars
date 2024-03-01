@@ -7,3 +7,10 @@ NCBI_sequenceIDs.txt
 NCBI_sequenceIDs_smaller.txt
 Conterminator/*
 FCS-GX/*
+NCBI_sequenceIDs_NC.mapping
+NCBI_sequenceIDs_NC.txt
+Same_tax_id.mapping
+find_missing_ids.py
+lost_ids.txt
+mapping.sh
+output_file
