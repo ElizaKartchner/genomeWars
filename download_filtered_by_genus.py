@@ -27,11 +27,25 @@ def get_file_batch(accession_nums):
 #     handle.close()
 #     return summaries
 
+# # Create a fasta file for the sequence
+# def save_to_file(sequence, output_dir, genus, tax_id):
+
+#     # If the output directory doesn't exist, make it
+#     directory = output_dir + "/" + genus
+#     if not os.path.exists(directory):
+#         os.makedirs(directory)
+    
+#     # Save the genome
+#     filename = os.path.join(directory, f"{str(tax_id)}.fa")
+#     with open(filename, "a") as output_file:
+#         SeqIO.write(sequence, output_file, "fasta")
+
+
 # Create a fasta file for the sequence
-def save_to_file(sequence, output_dir, genus, tax_id):
+def save_to_file(sequence, output_dir, tax_id):
 
     # If the output directory doesn't exist, make it
-    directory = output_dir + "/" + genus
+    directory = output_dir
     if not os.path.exists(directory):
         os.makedirs(directory)
     
@@ -46,11 +60,11 @@ if __name__ == "__main__":
 
     # Set parameters
     batch_size = 1000
-    output_dir = "microbial_genomes/fasta_by_species"
+    output_dir = "microbial_genomes/fasta_all_NC"
     input_file = "NCBI_sequenceIDs_NC.mapping"
-    genus_filter = ["Streptococcus",
-                    "Mycobacterium",
-                    "Staphylococcus"]
+    # genus_filter = ["Streptococcus",
+    #                 "Mycobacterium",
+    #                 "Staphylococcus"]
     
     # Require an email address argument
     parser = argparse.ArgumentParser(description="Download genomes from Refseq, filtered by genus.")
@@ -59,7 +73,7 @@ if __name__ == "__main__":
     init_Entrez(args.email)
     
     # Keep track of how many of each genome we find
-    counts = {genus: 0 for genus in genus_filter}
+    # counts = {genus: 0 for genus in genus_filter}
 
     # Read in all ids
     with open(input_file, 'r') as file:
@@ -92,15 +106,15 @@ if __name__ == "__main__":
 
         for id_tuple in batch:
             sequence = next(temp for temp in sequences if temp.id == id_tuple[0])
-            genus = sequence.description.split()[1]
+            # genus = sequence.description.split()[1]
             tax_id = id_tuple[1]
 
-            # save_to_file(sequence, output_dir, genus, tax_id)
+            save_to_file(sequence, output_dir, tax_id)
 
             # If it's a genus we want, save it and add 1 to its count
-            if genus in genus_filter:
-                save_to_file(sequence, output_dir, genus, tax_id)
-                counts[genus] += 1
+            # if genus in genus_filter:
+                # save_to_file(sequence, output_dir, genus, tax_id)
+                # counts[genus] += 1
     
     # Print results summary
     # sys.stdout.write(f"\rProcessed {num_ids} ids, saved:\n")

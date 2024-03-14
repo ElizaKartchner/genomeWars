@@ -4,8 +4,6 @@ from Bio import Entrez, SeqIO
 
 # Leucothrix, Thalassomonas, Velarivirus, Tritimovirus, Dinovernavirus, Bacillarnavirus, Rymovirus, Ignicoccus, Salinimicrobium
 
-# NC_014122.1
-
 from Bio import Entrez, SeqIO
 
 def download_genomes(email, refseq_id):
@@ -19,7 +17,7 @@ def download_genomes(email, refseq_id):
 
 
     # Download and save each genome
-    output_dir = f"microbial_genomes/fasta_files"
+    output_dir = f"microbial_genomes/data"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     filename = os.path.join(output_dir, f"{sequence.id.replace(".", "_")}.fa")

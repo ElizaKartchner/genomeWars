@@ -14,5 +14,8 @@ find_missing_ids.py
 lost_ids.txt
 mapping.sh
 output_file
-repophlan
+repophlan/*
 VecScreen
+BLAST/
+Repophlan/*
+data/bacillarnavirus
