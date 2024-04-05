@@ -1,4 +1,3 @@
-.venv
 .vscode
 microbial_genomes/
 GUNC/gunc_db_progenomes2.1.dmnd
@@ -18,4 +17,6 @@ repophlan/*
 VecScreen
 BLAST/
 Repophlan/*
-data/bacillarnavirus
+ARCHIVE/*
+REPRODUCE/*
+data/microbial_genomes_17000/*
