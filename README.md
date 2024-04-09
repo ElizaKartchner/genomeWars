@@ -239,6 +239,30 @@ python3 parse_xml_output.py ./pre_results_17000 ./_parsed/parsed_17000.tsv
 
 ## Step 4: Run FCS-GX
 
+1. Go to the step_4_FSC-GX folder 
+
+```sh 
+cd step_4_FSC-GX
+``` 
+
+2. The easiest way to run FCS-GX is to run the `step_4_RUN_ALL.sh` script inside of the step_4_FCS-GX directory. This script will run through all the other steps for FSC-GX. It takes a max of 12 hours for the 17000 genomes.
+
+In order to run this script you will need to pass it the directory of where the genomes are located as well as your email. 
+
+Run the script with the 9 genera (max 1 hour)
+```sh
+./step_4_RUN_ALL.sh ../step_0_data/microbial_genomes_9_genera/ your.email@email.com
+```
+
+Run the script with the 17000 genomes (max 12 hours)
+```sh
+./step_4_RUN_ALL.sh ../step_0_data/microbial_genomes_17000/ your.email@email.com
+```
+
+The output files of these scripts can be found in `step_4_FCS-GX/reports`. For every genome there will be an rpt file and a txt file in the reports folder. A two summary files of these results can be found in `step_4_FCS-GX/summary.rpt` and `step_4_FCS-GX/summary.txt`. 
+
+The expected output files are called `summary_17000_expected.rpt` and `summary_17000_expected.rpt` for the 17000. For the 9 genera the files are called `summary_9_genera_expected.rpt` and `summary_9_genera_expected.txt`
+
 
 ## Step 5: Create Figures
 
@@ -289,4 +313,4 @@ Go to the `step_5_figures/figure_4_FCS-GX` folder.
 cd step_5_figures/figure_4_FCS-GX
 ```
 
-The `generate_figure_4.R` script creates figures 4a and 4b, which corresponds to the FCS-GX output. Download the `step_5_figures/figure_4_FCS-GX/summary.txt` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for these figures are found in the `step_5_figures/figure_4_FCS-GX` folder as `expected_figure_4a.png` and `expected_figure_4a.png`.
+The `generate_figure_4.R` script creates figures 4a and 4b, which corresponds to the FCS-GX output. Download the `step_4_FCS-GX/summary_17000_expected.tsv` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for these figures are found in the `step_5_figures/figure_4_FCS-GX` folder as `expected_figure_4a.png` and `expected_figure_4a.png`.

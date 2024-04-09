@@ -1,6 +1,6 @@
 library(tidyverse)
 # FCS-GX
-summary = read_tsv("summary.txt")
+summary = read_tsv("summary_17000_expected.tsv")
 head(summary)
 
 div_one_levels <- c(
