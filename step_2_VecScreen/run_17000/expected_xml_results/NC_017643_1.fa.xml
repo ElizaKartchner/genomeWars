@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>../UniVecDB/UniVecDB</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>NC_017643.1 Escherichia coli UMNK88 plasmid pUMNK88_Hly, complete sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>65549</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>700</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-5</Parameters_sc-mismatch>
+      <Parameters_gap-open>3</Parameters_gap-open>
+      <Parameters_gap-extend>3</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>NC_017643.1 Escherichia coli UMNK88 plasmid pUMNK88_Hly, complete sequence</Iteration_query-def>
+  <Iteration_query-len>65549</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|uv|AF129072.1:907-3477</Hit_id>
+  <Hit_def>Cloning vector pWD42-09</Hit_def>
+  <Hit_accession>AF129072.1:907-3477</Hit_accession>
+  <Hit_len>2571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.672</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>7.20668e-130</Hsp_evalue>
+      <Hsp_query-from>48817</Hsp_query-from>
+      <Hsp_query-to>49154</Hsp_query-to>
+      <Hsp_hit-from>2108</Hsp_hit-from>
+      <Hsp_hit-to>2445</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>TCGCTGTCAGTCTTCTCGCTGGAA-ATATCGAGTACACGCTCGTAAGCGGCCCTGACGGCCCGCTAACGCGGAGATACGCCCCGACTTCGGGTAAACCCTCGTCGGGACCACTCCGACCGCGCACAGAAGCTCTCTCATGGCTGAAAGCGGGTATGGTTTGGCAGGGCT-GGGAGGGGTGAGGTGAAATCTATCAATCAGTACCGGCTTACGCCGGGCTTCGGCGGTTTTACTCCGGTATCATATGCAACAACAGAGTGCCGCCTTCCATGCCGCTGACGCGGCATATCCTGGTGACGATATCTGAATCGTTATATACTGTGTATATACGTAGTAATGAC</Hsp_qseq>
+      <Hsp_hseq>TCGCTGTCAGTCTTCTCGCTGGAAGTTCTC-AGTACACGCTCGTAAGCGGCCCTCACGGCCCGCTAACGCGGAGATACGCCCCGACTTCGGGTAAACCCTCGTCGGGACCACTCCGACCGCGCACAGAAGCTCTCTCATGGCTGAAAGCGGGTATGGTCTGGCAGGGCTGGGGATGGGTAAGGTGAAATCTATCAATCAGTACCGGCTTACGCCGGGCTTCGGCGGTTTTACTCCTGTATCATATGAAACAACAGAGTGCCGCCTTCCATGCCGCTGATGCGGCATATCCTGGTAACGATATCTGAATTGTTATACA-TGTGTATATACGTGGTAATGAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||  | || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||| |||||| | ||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.5705</Hsp_bit-score>
+      <Hsp_score>28</Hsp_score>
+      <Hsp_evalue>1.63538e-05</Hsp_evalue>
+      <Hsp_query-from>48671</Hsp_query-from>
+      <Hsp_query-to>48698</Hsp_query-to>
+      <Hsp_hit-from>1908</Hsp_hit-from>
+      <Hsp_hit-to>1935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GCACCTCCCACCGCAAGCGGCGGGCCCC</Hsp_qseq>
+      <Hsp_hseq>GCACCTCCCACCGCAAGCGGCGGGCCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|uv|KF718974.2:698-2126</Hit_id>
+  <Hit_def>Cloning vector pGGY001</Hit_def>
+  <Hit_accession>KF718974.2:698-2126</Hit_accession>
+  <Hit_len>1429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.292</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>5.22706e-87</Hsp_evalue>
+      <Hsp_query-from>58528</Hsp_query-from>
+      <Hsp_query-to>58714</Hsp_query-to>
+      <Hsp_hit-from>1381</Hsp_hit-from>
+      <Hsp_hit-to>1195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>ATAGACTGGCCCCCTGAATCTCCAGACAATCAATATCACTTAAATAAGTGATAGTCTTAATACTAGTTTTTAGACTAGTCATTGGAGAACAGATGATTGATGTCTTAGGGCCGGAGAAACGCAGACGGCGTACTACACAGGAAAAGATCGCTATTGTTCAGCAGAGCTTTGAACCGGGAATGACGGT</Hsp_qseq>
+      <Hsp_hseq>ATAGACTGGCCCCCTGAATCTCCAGACAACCAATATCACTTAAATAAGTGATAGTCTTAATACTAGTTTTTAGACTAGTCATTGGAGAACAGATGATTGATGTCTTAGGGCCGGAGAAACGCAGACGGCGTACCACACAGGAAAAGATCGCAATTGTTCAGCAGAGCTTTGAACCGGGGATGACGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|uv|L05669.1:4220-4318</Hit_id>
+  <Hit_def>Cloning vector pNO3097 (incA) gene, partial cds; (stbA and stbB) complete cds; beta-lactamase complete cds; lac repressor complete cds; ORF repA4; lambda repressor complete cds</Hit_def>
+  <Hit_accession>L05669.1:4220-4318</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.859</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.12547e-38</Hsp_evalue>
+      <Hsp_query-from>48847</Hsp_query-from>
+      <Hsp_query-to>48940</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>AGTACACGCTCGTAAGCGGCCCTGACGGCCCGCTAACGCGGAGATACGCCCCGACTTCGGGTAAACCCTCGTCGGGACCACTCCGACCGCGCAC</Hsp_qseq>
+      <Hsp_hseq>AGTACACGCTCGTAAGCGGCCCTCACGGCCCGCTAACGCGGAGACACGCCCCGACTTCGGGTAAACCCTCGTCGGGACCACTCCGACCGCGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|uv|M10567.1:64-217</Hit_id>
+  <Hit_def>Plasmid pRK101 adjoining replication origin of antibiotic resistance factor R1</Hit_def>
+  <Hit_accession>M10567.1:64-217</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.795</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.23612e-31</Hsp_evalue>
+      <Hsp_query-from>48814</Hsp_query-from>
+      <Hsp_query-to>48920</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>TCGTCGCTGTCAGTCTTCTCGCTGGAA-ATATCGAGTACACGCTCGTAAGCGGCCCTGACGGCCCGCTAACGCGGAGATACGCCCCGACTTCGGGTAAACCCTCGTCG</Hsp_qseq>
+      <Hsp_hseq>TCGTCGCTGTCAGTCTTCTCGCTGGAAGTTCTC-AGTACACGCTCGTAAGCGGCCCTCGCGGCCCGCTAACGCGGAGATACGCCCCGACTTCGGGTAAACCCTCGTCG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||  | || |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|uv|L05669.1:3965-4149</Hit_id>
+  <Hit_def>Cloning vector pNO3097 (incA) gene, partial cds; (stbA and stbB) complete cds; beta-lactamase complete cds; lac repressor complete cds; ORF repA4; lambda repressor complete cds</Hit_def>
+  <Hit_accession>L05669.1:3965-4149</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6507</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>1.44071e-14</Hsp_evalue>
+      <Hsp_query-from>49010</Hsp_query-from>
+      <Hsp_query-to>49058</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>ATCAGTACCGGCTTACGCCGGGCTTCGGCGGTTTTACTCCGGTATCATA</Hsp_qseq>
+      <Hsp_hseq>ATCAGTACCGGCTTACGCCGGGCTTCGGCGGTTTTACTCCTGTATCATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>6113</Statistics_db-num>
+      <Statistics_db-len>1270396</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>1750000000000</Statistics_eff-space>
+      <Statistics_kappa>0.747</Statistics_kappa>
+      <Statistics_lambda>1.39</Statistics_lambda>
+      <Statistics_entropy>1.38</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

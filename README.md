@@ -103,7 +103,7 @@ mv ncbi-blast-2.15.0+* blast_executables/
 3. Set path for BLAST+
 
 ```sh
-export PATH=$HOME/fsl_groups/grp_Bio465_GenomeWars/compute/genomeWars/step_2_VecScreen/blast_executables/ncbi-blast-2.15.0+/bin
+export PATH=$PATH:$HOME/fsl_groups/grp_Bio465_GenomeWars/compute/genomeWars/step_2_VecScreen/blast_executables/ncbi-blast-2.15.0+/bin
 ```
 
 4. Create UniVec DB
@@ -131,7 +131,7 @@ The following scripts will run VecScreen on the microbial genomes. The first scr
 sbatch run_17000/vecscreen_for_17000.sh
 ```
 
-The second script runs VecScreen on 47 genomes that come from the 9 different genera that Salzberg noted as particuarly problematic. This script takes approximately 2 1/2 minutes to run. The expected xml output for each genome is found in the `run_9_genera/expected_xml_results` folder. If you actually run the script with the following command, your results will be found in a folder called `xml_results`.
+The second script runs VecScreen on 47 genomes that come from the 9 different genera that Salzberg noted as particuarly problematic. This script takes approximately 2 1/2 minutes to run. The expected xml output for each genome is found in the `run_9_genera/expected_xml_results` folder. If you actually run the script with the following command, your results will be found in a folder called `run_9_genera/xml_results`.
 
 ```sh
 sbatch run_9_genera/vecscreen_for_9_genera.sh
@@ -141,9 +141,9 @@ sbatch run_9_genera/vecscreen_for_9_genera.sh
 
 The following scripts parse all of the xml files and place all relevant information into one csv file. To run these scripts, a conda environment must be created and activated with the BioPython package installed. The following commands will create an environment called `blast`, activate the environment, and install the package.
 
-```
-conda create --name <my-env>
-conda activate blast
+```sh
+conda create --name blast_env
+conda activate blast_env
 conda install -c conda-forge biopython
 ```
 
@@ -182,16 +182,17 @@ curl https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refs
 # ~30 seconds
 gzip -d GRCh38_latest_genomic.fna.gz
 ```
-You can make sure it worked by running `head -10 GRCh38_latest_genomic.fna` to show the first 10 lines
+You can make sure it worked by running `head -10 GRCh38_latest_genomic.fna` to show the first 10 lines. The first line will say ">NC_000001.11 Homo sapiens chromosome 1, GRCh38.p14 Primary Assembly" followed by lines of "N's"
 
 To see all the different sequences the FASTA file has, you can look for all the '>' symboles in the file by running `grep -F ">" GRCh38_latest_genomic.fna`
 
-3. You should now have a file called "GRCh38_latest_genomic.fna." This file is about 3GB large. To make it into a database compatible with BLAST, use makeblastdb. 
+3. You should now have a file called "GRCh38_latest_genomic.fna" that is located in the db folder you created earlier. This file is about 3GB large. To make it into a database compatible with BLAST, use makeblastdb. 
+
 ```sh
 # ~30 seconds
 makeblastdb -in ./GRCh38_latest_genomic.fna -dbtype nucl -title GRCh38_latest_genomic -parse_seqids
 ```
-*Note:* Before running this command, make sure you have access to the BLAST executables, and have exported it into your $PATH environment variable
+*Note:* Before running this command, make sure you have access to the BLAST executables, and have exported it into your $PATH environment variable during the vecscreen set up. See step 2.1 number 3. 
 
 This creates a number of files, including a .njs file containing the database metadata. You're now ready to run BLAST analysis against the human genome.
 
@@ -204,7 +205,9 @@ cd ..
 Before finding alignments against the Human genome, we must chunk the query genomes (split them up into many different consecutive sequences of a specified length).
 
 1. To chunk the genomes created in Step 0, run the chunk_folder.sh script using the following syntax:
-* **\[TAs\]** This step takes a long time, and has already been completed. The output folders are `step_3_BlastHomoSapien/pre_chunked_9_genera` and `step_3_BlastHomoSapien/pre_chunked_17000`
+* **\[TAs\]** This step takes a long time, and has already been completed. The output folders are 
+
+`step_3_BlastHomoSapien/pre_chunked_9_genera` and `step_3_BlastHomoSapien/pre_chunked_17000`
 ```sh
 # ~10 seconds
 sh chunk_folder.sh ../step_0_data/microbial_genomes_9_genera ./chunked_9_genera

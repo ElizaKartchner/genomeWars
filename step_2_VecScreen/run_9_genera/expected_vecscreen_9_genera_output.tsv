@@ -1,0 +1,3 @@
+query_file	 subject_name	 subject_genome_length	 identities	 gaps	 score	 e_value	 num_alignments	 query_start	 subject_start	 alignment_length
+NZ_CP059693_1.fa.xml	 gnl|uv|NGB00402.1:2108-3532 pInvRecA cloning vector	 1425	127	 0	 72.0	 4.48918e-32	 None	1206921	 747	 138
+NZ_CP059735_1.fa.xml	 gnl|uv|NGB00402.1:2108-3532 pInvRecA cloning vector	 1425	111	 0	 71.0	 1.80234e-31	 None	1185142	 725	 119

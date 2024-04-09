@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>../UniVecDB/UniVecDB</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>NC_005007.1 Staphylococcus epidermidis ATCC 12228 plasmid pSE-12228-02, complete sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>4679</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>700</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-5</Parameters_sc-mismatch>
+      <Parameters_gap-open>3</Parameters_gap-open>
+      <Parameters_gap-extend>3</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>NC_005007.1 Staphylococcus epidermidis ATCC 12228 plasmid pSE-12228-02, complete sequence</Iteration_query-def>
+  <Iteration_query-len>4679</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|uv|M16192.1:1-2517-49</Hit_id>
+  <Hit_def>Plasmid pTZ12, a chloramphenicol-resistance plasmid</Hit_def>
+  <Hit_accession>M16192.1:1-2517-49</Hit_accession>
+  <Hit_len>2566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.699</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>6.90858e-133</Hsp_evalue>
+      <Hsp_query-from>1943</Hsp_query-from>
+      <Hsp_query-to>2457</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>469</Hsp_identity>
+      <Hsp_positive>469</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>515</Hsp_align-len>
+      <Hsp_qseq>CTATCTGAATTTATGAGTATTGAGCCACAAATACGACTTTGGGATATACTTCAAACTAAATTTAAAGCTAAGGCGCTACAAGAAAAAGTTTATATTGAATATGACAAAGTAAAAGCAGATACGTGGGATAGACGTAATATGCGTGTTGAATTTAATCCAAATAAACTTACGCATGAAGAAATGCTTTGGTTAAAACAAAACGTTATCGACTACATGGAAGATGACGGTTTTACAAGATTAGATTTAGCTTTTGATTTTGAAGATGATTTAAGTGATTATTATGCAATGACTGATAAATCAGTTAAGAAAACTATTTTCTATGGTCGTAATGGTAAACCAGAAACAAAATATTTTGGTGTTCGTGACAGTGATAGGTTTATTAGAATTTATAATAAAAAACAGGAACGTAGGGATAATGCAAATATTGAAGTTGTTTCAGAACATCTATGGCGTGTAGAAATTGAATTAAAAAGAGGTATGGTTGATTATTGGAACGATTGTTTTGGTGATTTACA</Hsp_qseq>
+      <Hsp_hseq>CTATCTGATTTTATGAGTACAGAGCCACAAATAAGGCTTTGGGATATATTACAAACAAAGTTTAAAGCTAAAGCACTTCAAGAAAAGGTTTATATCGAATATGACAAAGTAAAAGCAGATAGTTGGGATAGACGTAATATGCGTGTTGAATTTAATCCAAATAAACTCACACATGAAGAAATGCTTTGGTTAAAACAAAATATTATCGACTACATGGAAGATGACGGTTTTACGAGGTTAGATTTAGCTTTTGATTTTGAAGATGATTTGAGTGATTACTACGCAATGACTGATAAAGCAGTTAAGAAAACTATTTTTTATGGTCGTAATGGTAAGCCAGAAACAAAATATTTTGGTGTTCGTGACAGTGATAGATTTATTAGAATTTATAATAAAAAACAAGAACGTAAAGATAACGCCGATGTTGAAGTTATGTCTGAACATTTATGGCGTGTAGAAATTGAATTGAAAAGAGATATGGTTGATTACTGGAATGATTGCTTTGATGATTTACA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||  |||||||||||| | |||||||||||| | ||||| || ||||||||||| || || |||||||| |||||||| |||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||| |||||||| || ||||||||||||||| ||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||  ||||| ||  || |||||||| | || |||||| |||||||||||||||||||||| ||||||| |||||||||||| ||||| ||||| |||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.6347</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.32364e-13</Hsp_evalue>
+      <Hsp_query-from>1808</Hsp_query-from>
+      <Hsp_query-to>1853</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>GATTTAGATAATTTTTCTAAAACCGGCTACTCTAATAGCCGGTTAA</Hsp_qseq>
+      <Hsp_hseq>GATTTAGACAATTTTTCTAAAACCGGCTACTCTAATAGCCGGTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|uv|M16217.1:3121-3879-49</Hit_id>
+  <Hit_def>Staphylococcus aureus plasmid pNS1</Hit_def>
+  <Hit_accession>M16217.1:3121-3879-49</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.308</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>8.077e-89</Hsp_evalue>
+      <Hsp_query-from>1950</Hsp_query-from>
+      <Hsp_query-to>2547</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>745</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>526</Hsp_identity>
+      <Hsp_positive>526</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>598</Hsp_align-len>
+      <Hsp_qseq>AATTTATGAGTATTGAGCCACAAATACGACTTTGGGATATACTTCAAACTAAATTTAAAGCTAAGGCGCTACAAGAAAAAGTTTATATTGAATATGACAAAGTAAAAGCAGATACGTGGGATAGACGTAATATGCGTGTTGAATTTAATCCAAATAAACTTACGCATGAAGAAATGCTTTGGTTAAAACAAAACGTTATCGACTACATGGAAGATGACGGTTTTACAAGATTAGATTTAGCTTTTGATTTTGAAGATGATTTAAGTGATTATTATGCAATGACTGATAAATCAGTTAAGAAAACTATTTTCTATGGTCGTAATGGTAAACCAGAAACAAAATATTTTGGTGTTCGTGACAGTGATAGGTTTATTAGAATTTATAATAAAAAACAGGAACGTAGGGATAATGCAAATATTGAAGTTGTTTCAGAACATCTATGGCGTGTAGAAATTGAATTAAAAAGAGGTATGGTTGATTATTGGAACGATTGTTTTGGTGATTTACATATATTACAACCAGATTGGAAAACTATCGAACGTACTTCTGATAGATCAATGGTTTTTATGTTGTTGAATGACGAAGAAGAATGGGGAAA</Hsp_qseq>
+      <Hsp_hseq>AATTTATGAGTGTAGAGCCCCAAATAAGACTTTGGGATATTCTTCAAACAAAGTTTAAAGCTAAAGCACTTCAAGAAAAAGTTTATATTGAATATGACAAAGTGAAAGCAGATAGTTGGGATAGACGTAATATGCGTATTGAATTTAATCCAAACAAACTTACACGAGATGAAATGATTTGGTTAAAACAAAATATAATAAGCTACATGGAAGATGACGGTTTTACAAGATTAGATTTAGCCTTTGATTTTGAAGATGATTTGAGTGACTACTATGCAATGTCTGATAAAGCAGTTAAGAAAACTATTTTTTATGGTCGTAATGGTAAGCCAGAAACAAAATATTTTGGCGTGAGAGATAGTAATAGATTTATTAGAATTTATAATAAAAAGCAAGAACGTAAAGATAATGCAGATGCTGAAGTTATGTCTGAACATTTATGGCGTGTAGAAATCGAACTTAAAAGAGATATGGTGGATTACTGGAATGATTGCTTTAGTGATTTACATATCTTGCAACCAGATTGGAAAACTATCCAACGCACTGCGGATAGAGCAATAGTTTTTATGTTATTGAGTGATGAAGAAGAATGGGGAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||| | ||||| |||||| ||||||||||||| |||||||| || ||||||||||| || || |||||||||||||||||||||||||||||||| ||||||||||  ||||||||||||||||||||| |||||||||||||||| |||||||| |  || |||||| ||||||||||||||||  | ||   ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||| || ||||||||| |||||||| ||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||| ||  | || ||| |||| ||||||||||||||||||||||| || |||||||  ||||||||| ||  ||||||| | || |||||| |||||||||||||||| ||| | ||||||| |||||| ||||| ||||| ||||| ||| ||||||||||||| || ||||||||||||||||||||| |||| ||| | |||||| |||| ||||||||||| |||| ||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>76.624</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.50288e-11</Hsp_evalue>
+      <Hsp_query-from>1808</Hsp_query-from>
+      <Hsp_query-to>1851</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>GATTTAGATAATTTTTCTAAAACCGGCTACTCTAATAGCCGGTT</Hsp_qseq>
+      <Hsp_hseq>GATTTAGACAATTTTTCTAAAACCGGCTACTCTAATAGCCGGTT</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|uv|L08860.1:1858-2910-49</Hit_id>
+  <Hit_def>pC194 cloning vector for Bacillus subtillis</Hit_def>
+  <Hit_accession>L08860.1:1858-2910-49</Hit_accession>
+  <Hit_len>1102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.859</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.12547e-38</Hsp_evalue>
+      <Hsp_query-from>237</Hsp_query-from>
+      <Hsp_query-to>399</Hsp_query-to>
+      <Hsp_hit-from>355</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>CACGCATTTATGCCGAGAAAATTTATTGAT-GTTGAGAAGAACCCTTAACTAAACTGTAGC-GACGAATGTCGGCATAGCGTGAGCTATTAGGCCGACGAGTCGACA-GTTTTGGGGTTTGTTAAGGGTTCAGAGGCTCAACGTCAATAAAGCAATTGGAATAAAG</Hsp_qseq>
+      <Hsp_hseq>CACGCATTTATGCCGAGAAAATTTATTGTGCGTTGAGAAGAACCCTTAACTAAACT-T-GCAGACGAATGTCGGCATAGCGTGAGCTATTAAGCCGACCATTCGACAAGTTTTGGGA-TTGTTAAGGGTTCCGAGGCTCAACGTCAATAAAGCAATTGGAATAAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||   ||||||||||||||||||||||||| | || ||||||||||||||||||||||||||||| |||||| | |||||| ||||||||  ||||||||||||| ||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>6113</Statistics_db-num>
+      <Statistics_db-len>1270396</Statistics_db-len>
+      <Statistics_hsp-len>15</Statistics_hsp-len>
+      <Statistics_eff-space>1750000000000</Statistics_eff-space>
+      <Statistics_kappa>0.747</Statistics_kappa>
+      <Statistics_lambda>1.39</Statistics_lambda>
+      <Statistics_entropy>1.38</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
