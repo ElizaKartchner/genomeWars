@@ -1,0 +1,439 @@
+Loading parallel
+Starting...
+beginning parallel...
+starting gunc func
+Screening NC_001814_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:11 : END   Prodigal
+20:52:11 : START Diamond
+21:02:03 : END   Diamond
+21:02:03 : START Scoring
+21:02:03 : END   Scoring
+21:02:03 : END   Runtime: 0:09:53
+starting gunc func
+Screening NC_001836_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:12 : END   Prodigal
+20:52:12 : START Diamond
+21:02:04 : END   Diamond
+21:02:04 : START Scoring
+21:02:04 : END   Scoring
+21:02:04 : END   Runtime: 0:09:53
+starting gunc func
+Screening NC_001886_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:11 : END   Prodigal
+20:52:11 : START Diamond
+21:02:00 : END   Diamond
+21:02:00 : No genes mapped to reference: NC_001886_1
+21:02:00 : No diamond output files.
+starting gunc func
+Screening NC_003501_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:11 : END   Prodigal
+20:52:11 : START Diamond
+21:02:00 : END   Diamond
+21:02:00 : No genes mapped to reference: NC_003501_1
+21:02:00 : No diamond output files.
+starting gunc func
+Screening NC_005136_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:11 : END   Prodigal
+20:52:11 : START Diamond
+21:01:55 : END   Diamond
+21:01:55 : No genes mapped to reference: NC_005136_1
+21:01:55 : No diamond output files.
+starting gunc func
+Screening NC_005903_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:10 : END   Prodigal
+20:52:11 : START Diamond
+21:02:02 : END   Diamond
+21:02:02 : START Scoring
+21:02:02 : END   Scoring
+21:02:02 : END   Runtime: 0:09:51
+starting gunc func
+Screening NC_005904_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:11 : END   Prodigal
+20:52:11 : START Diamond
+21:01:56 : END   Diamond
+21:01:56 : No genes mapped to reference: NC_005904_1
+21:01:56 : No diamond output files.
+starting gunc func
+Screening NC_007666_1...
+20:52:10 : START 2024-03-25
+20:52:10 : START Prodigal
+20:52:12 : END   Prodigal
+20:52:12 : START Diamond
+21:01:56 : END   Diamond
+21:01:56 : No genes mapped to reference: NC_007666_1
+21:01:56 : No diamond output files.
+starting gunc func
+Screening NC_007667_1...
+21:01:58 : START 2024-03-25
+21:01:58 : START Prodigal
+21:01:58 : END   Prodigal
+21:01:58 : START Diamond
+21:11:25 : END   Diamond
+21:11:25 : No genes mapped to reference: NC_007667_1
+21:11:25 : No diamond output files.
+starting gunc func
+Screening NC_007668_1...
+21:01:58 : START 2024-03-25
+21:01:58 : START Prodigal
+21:01:58 : END   Prodigal
+21:01:58 : START Diamond
+21:11:12 : END   Diamond
+21:11:12 : No genes mapped to reference: NC_007668_1
+21:11:12 : No diamond output files.
+starting gunc func
+Screening NC_007669_1...
+21:01:58 : START 2024-03-25
+21:01:58 : START Prodigal
+21:01:58 : END   Prodigal
+21:01:58 : START Diamond
+21:11:08 : END   Diamond
+21:11:08 : No genes mapped to reference: NC_007669_1
+21:11:08 : No diamond output files.
+starting gunc func
+Screening NC_007670_1...
+21:02:01 : START 2024-03-25
+21:02:01 : START Prodigal
+21:02:01 : END   Prodigal
+21:02:01 : START Diamond
+21:11:16 : END   Diamond
+21:11:16 : No genes mapped to reference: NC_007670_1
+21:11:16 : No diamond output files.
+starting gunc func
+Screening NC_007671_1...
+21:02:01 : START 2024-03-25
+21:02:01 : START Prodigal
+21:02:01 : END   Prodigal
+21:02:01 : START Diamond
+21:11:08 : END   Diamond
+21:11:08 : START Scoring
+21:11:08 : END   Scoring
+21:11:08 : END   Runtime: 0:09:06
+starting gunc func
+Screening NC_007672_1...
+21:02:03 : START 2024-03-25
+21:02:03 : START Prodigal
+21:02:03 : END   Prodigal
+21:02:03 : START Diamond
+21:10:51 : END   Diamond
+21:10:51 : No genes mapped to reference: NC_007672_1
+21:10:51 : No diamond output files.
+starting gunc func
+Screening NC_007673_1...
+21:02:05 : START 2024-03-25
+21:02:05 : START Prodigal
+21:02:05 : END   Prodigal
+21:02:05 : START Diamond
+21:11:08 : END   Diamond
+21:11:08 : No genes mapped to reference: NC_007673_1
+21:11:08 : No diamond output files.
+starting gunc func
+Screening NC_007674_1...
+21:02:05 : START 2024-03-25
+21:02:05 : START Prodigal
+21:02:05 : END   Prodigal
+21:02:05 : START Diamond
+21:11:03 : END   Diamond
+21:11:03 : No genes mapped to reference: NC_007674_1
+21:11:03 : No diamond output files.
+starting gunc func
+Screening NC_009776_1...
+21:11:02 : START 2024-03-25
+21:11:02 : START Prodigal
+21:11:20 : END   Prodigal
+21:11:20 : START Diamond
+21:21:27 : END   Diamond
+21:21:27 : START Scoring
+21:21:27 : END   Scoring
+21:21:27 : END   Runtime: 0:10:25
+starting gunc func
+Screening NC_009805_1...
+21:11:04 : START 2024-03-25
+21:11:04 : START Prodigal
+21:11:04 : END   Prodigal
+21:11:04 : START Diamond
+21:20:37 : END   Diamond
+21:20:37 : No genes mapped to reference: NC_009805_1
+21:20:38 : No diamond output files.
+starting gunc func
+Screening NC_012212_1...
+21:11:09 : START 2024-03-25
+21:11:09 : START Prodigal
+21:11:09 : END   Prodigal
+21:11:09 : START Diamond
+21:20:45 : END   Diamond
+21:20:45 : No genes mapped to reference: NC_012212_1
+21:20:45 : No diamond output files.
+starting gunc func
+Screening NC_016436_1...
+21:11:09 : START 2024-03-25
+21:11:09 : START Prodigal
+21:11:09 : END   Prodigal
+21:11:09 : START Diamond
+21:20:54 : END   Diamond
+21:20:54 : START Scoring
+21:20:54 : END   Scoring
+21:20:54 : END   Runtime: 0:09:45
+starting gunc func
+Screening NC_018613_1...
+21:11:09 : START 2024-03-25
+21:11:09 : START Prodigal
+21:11:10 : END   Prodigal
+21:11:10 : START Diamond
+21:20:50 : END   Diamond
+21:20:50 : No genes mapped to reference: NC_018613_1
+21:20:50 : No diamond output files.
+starting gunc func
+Screening NC_022745_1...
+21:11:13 : START 2024-03-25
+21:11:13 : START Prodigal
+21:11:13 : END   Prodigal
+21:11:13 : START Diamond
+21:20:53 : END   Diamond
+21:20:53 : START Scoring
+21:20:53 : END   Scoring
+21:20:53 : END   Runtime: 0:09:39
+starting gunc func
+Screening NC_024471_1...
+21:11:21 : START 2024-03-25
+21:11:21 : START Prodigal
+21:11:21 : END   Prodigal
+21:11:21 : START Diamond
+21:20:49 : END   Diamond
+21:20:49 : START Scoring
+21:20:49 : END   Scoring
+21:20:49 : END   Runtime: 0:09:28
+starting gunc func
+Screening NC_025485_1...
+21:11:27 : START 2024-03-25
+21:11:27 : START Prodigal
+21:11:27 : END   Prodigal
+21:11:27 : START Diamond
+21:20:52 : END   Diamond
+21:20:52 : No genes mapped to reference: NC_025485_1
+21:20:53 : No diamond output files.
+starting gunc func
+Screening NC_025486_1...
+21:20:41 : START 2024-03-25
+21:20:41 : START Prodigal
+21:20:41 : END   Prodigal
+21:20:41 : START Diamond
+21:29:49 : END   Diamond
+21:29:49 : No genes mapped to reference: NC_025486_1
+21:29:49 : No diamond output files.
+starting gunc func
+Screening NC_025487_1...
+21:20:49 : START 2024-03-25
+21:20:49 : START Prodigal
+21:20:51 : END   Prodigal
+21:20:51 : START Diamond
+21:30:01 : END   Diamond
+21:30:01 : No genes mapped to reference: NC_025487_1
+21:30:01 : No diamond output files.
+starting gunc func
+Screening NC_025488_1...
+21:20:50 : START 2024-03-25
+21:20:50 : START Prodigal
+21:20:50 : END   Prodigal
+21:20:50 : START Diamond
+21:29:59 : END   Diamond
+21:29:59 : No genes mapped to reference: NC_025488_1
+21:29:59 : No diamond output files.
+starting gunc func
+Screening NC_025489_1...
+21:20:51 : START 2024-03-25
+21:20:51 : START Prodigal
+21:20:52 : END   Prodigal
+21:20:52 : START Diamond
+21:29:46 : END   Diamond
+21:29:46 : No genes mapped to reference: NC_025489_1
+21:29:46 : No diamond output files.
+starting gunc func
+Screening NC_025490_1...
+21:20:53 : START 2024-03-25
+21:20:54 : START Prodigal
+21:20:54 : END   Prodigal
+21:20:54 : START Diamond
+21:29:47 : END   Diamond
+21:29:47 : No genes mapped to reference: NC_025490_1
+21:29:47 : No diamond output files.
+starting gunc func
+Screening NC_025491_1...
+21:20:54 : START 2024-03-25
+21:20:54 : START Prodigal
+21:20:54 : END   Prodigal
+21:20:54 : START Diamond
+21:29:49 : END   Diamond
+21:29:49 : No genes mapped to reference: NC_025491_1
+21:29:49 : No diamond output files.
+starting gunc func
+Screening NC_025492_1...
+21:20:55 : START 2024-03-25
+21:20:55 : START Prodigal
+21:20:55 : END   Prodigal
+21:20:55 : START Diamond
+21:29:55 : END   Diamond
+21:29:55 : No genes mapped to reference: NC_025492_1
+21:29:55 : No diamond output files.
+starting gunc func
+Screening NC_025493_1...
+21:21:29 : START 2024-03-25
+21:21:30 : START Prodigal
+21:21:30 : END   Prodigal
+21:21:30 : START Diamond
+21:30:47 : END   Diamond
+21:30:47 : No genes mapped to reference: NC_025493_1
+21:30:47 : No diamond output files.
+starting gunc func
+Screening NC_027121_1...
+21:29:49 : START 2024-03-25
+21:29:49 : START Prodigal
+21:29:49 : END   Prodigal
+21:29:49 : START Diamond
+21:39:37 : END   Diamond
+21:39:37 : START Scoring
+21:39:37 : END   Scoring
+21:39:37 : END   Runtime: 0:09:47
+starting gunc func
+Screening NC_038321_1...
+21:29:49 : START 2024-03-25
+21:29:49 : START Prodigal
+21:29:49 : END   Prodigal
+21:29:49 : START Diamond
+21:39:25 : END   Diamond
+21:39:25 : No genes mapped to reference: NC_038321_1
+21:39:25 : No diamond output files.
+starting gunc func
+Screening NC_038421_1...
+21:29:50 : START 2024-03-25
+21:29:50 : START Prodigal
+21:29:50 : END   Prodigal
+21:29:51 : START Diamond
+21:39:34 : END   Diamond
+21:39:34 : START Scoring
+21:39:34 : END   Scoring
+21:39:34 : END   Runtime: 0:09:44
+starting gunc func
+Screening NC_043107_1...
+21:29:51 : START 2024-03-25
+21:29:51 : START Prodigal
+21:29:52 : END   Prodigal
+21:29:52 : START Diamond
+21:39:32 : END   Diamond
+21:39:32 : START Scoring
+21:39:33 : END   Scoring
+21:39:33 : END   Runtime: 0:09:41
+starting gunc func
+Screening NC_043108_1...
+21:30:00 : START 2024-03-25
+21:30:00 : START Prodigal
+21:30:01 : END   Prodigal
+21:30:01 : START Diamond
+21:39:37 : END   Diamond
+21:39:37 : START Scoring
+21:39:37 : END   Scoring
+21:39:37 : END   Runtime: 0:09:37
+starting gunc func
+Screening NC_043453_1...
+21:30:03 : START 2024-03-25
+21:30:03 : START Prodigal
+21:30:03 : END   Prodigal
+21:30:03 : START Diamond
+21:39:40 : END   Diamond
+21:39:40 : START Scoring
+21:39:40 : END   Scoring
+21:39:40 : END   Runtime: 0:09:37
+starting gunc func
+Screening NC_055599_1...
+21:30:04 : START 2024-03-25
+21:30:04 : START Prodigal
+21:30:05 : END   Prodigal
+21:30:05 : START Diamond
+21:39:40 : END   Diamond
+21:39:40 : START Scoring
+21:39:40 : END   Scoring
+21:39:40 : END   Runtime: 0:09:36
+starting gunc func
+Screening NZ_CP006867_1...
+21:30:51 : START 2024-03-25
+21:30:51 : START Prodigal
+21:31:04 : END   Prodigal
+21:31:04 : START Diamond
+21:40:34 : END   Diamond
+21:40:34 : START Scoring
+21:40:35 : END   Scoring
+21:40:35 : END   Runtime: 0:09:43
+starting gunc func
+Screening NZ_CP059693_1...
+21:39:29 : START 2024-03-25
+21:39:29 : START Prodigal
+21:40:39 : END   Prodigal
+21:40:39 : START Diamond
+21:48:28 : END   Diamond
+21:48:28 : START Scoring
+21:48:28 : END   Scoring
+21:48:28 : END   Runtime: 0:08:58
+starting gunc func
+Screening NZ_CP059733_1...
+21:39:35 : START 2024-03-25
+21:39:35 : START Prodigal
+21:41:16 : END   Prodigal
+21:41:16 : START Diamond
+21:49:01 : END   Diamond
+21:49:01 : START Scoring
+21:49:01 : END   Scoring
+21:49:01 : END   Runtime: 0:09:26
+starting gunc func
+Screening NZ_CP059734_1...
+21:39:35 : START 2024-03-25
+21:39:35 : START Prodigal
+21:39:45 : END   Prodigal
+21:39:45 : START Diamond
+21:46:57 : END   Diamond
+21:46:57 : START Scoring
+21:46:57 : END   Scoring
+21:46:57 : END   Runtime: 0:07:21
+starting gunc func
+Screening NZ_CP059735_1...
+21:39:38 : START 2024-03-25
+21:39:38 : START Prodigal
+21:41:03 : END   Prodigal
+21:41:03 : START Diamond
+21:48:51 : END   Diamond
+21:48:51 : START Scoring
+21:48:51 : END   Scoring
+21:48:51 : END   Runtime: 0:09:12
+starting gunc func
+Screening NZ_CP059736_1...
+21:39:38 : START 2024-03-25
+21:39:38 : START Prodigal
+21:39:46 : END   Prodigal
+21:39:46 : START Diamond
+21:47:07 : END   Diamond
+21:47:07 : START Scoring
+21:47:07 : END   Scoring
+21:47:07 : END   Runtime: 0:07:28
+starting gunc func
+Screening NZ_CP069620_1...
+21:39:41 : START 2024-03-25
+21:39:41 : START Prodigal
+21:39:59 : END   Prodigal
+21:39:59 : START Diamond
+21:47:29 : END   Diamond
+21:47:29 : START Scoring
+21:47:29 : END   Scoring
+21:47:29 : END   Runtime: 0:07:48
+Finished

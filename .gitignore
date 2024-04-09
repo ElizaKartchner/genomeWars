@@ -2,3 +2,6 @@
 BLAST/
 ARCHIVE/*
 step_0_data/microbial_genomes_17000/*
+step_1_GUNC/run_output_17000/output/*
+step_1_GUNC/run_output_9_genera/output/*
+step_1_GUNC/gunc_db_progenomes2.1.dmnd
