@@ -6,3 +6,8 @@ step_1_GUNC/run_output_17000/output/*
 step_1_GUNC/run_output_9_genera/output/*
 step_1_GUNC/gunc_db_progenomes2.1.dmnd
 step_2_VecScreen/blast_executables/*
+step_3_BlastHomoSapien/_parsed/*
+step_3_BlastHomoSapien/pre_chunked_9_genera/*
+step_3_BlastHomoSapien/pre_chunked_17000/*
+step_3_BlastHomoSapien/pre_results_9_genera/*
+step_3_BlastHomoSapien/pre_results_17000/*

@@ -237,7 +237,6 @@ python3 parse_xml_output.py ./pre_results_17000 ./_parsed/parsed_17000.tsv
 * **\[TAs\]** This step takes a long time, and has already been completed. The output paths are `step_3_BlastHomoSapien/_parsed/pre_parsed_9_genera.tsv` and `step_3_BlastHomoSapien/_parsed/pre_parsed_17000.tsv`
 
 
-
 ## Step 4: Run FCS-GX
 
 
@@ -245,7 +244,17 @@ python3 parse_xml_output.py ./pre_results_17000 ./_parsed/parsed_17000.tsv
 
 1. Go to the `step_5_figures` directory. 
 
+```sh
+cd step_5_figures
+```
+
 2. Create figure 1
+
+Go to the `step_5_figures/figure_1_GUNC` folder.
+
+```sh
+cd step_5_figures/figure_1_GUNC
+```
 
 The `generate_figure_1.R` script creates Figure 1, which corresponds to the GUNC output for the 9 genera. Download the `step_1_GUNC/run_output_17000/expected_output_17000.tsv` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for this figure is found in the `step_5_figures/figure_1_GUNC/` folder as `expected_figure_1.png`.
 
@@ -253,8 +262,31 @@ This figures should the names of the genomes that had 25% or more contamination 
 
 3. Create figure 2
 
-The `generate_figure_2.R` script creates Figure 2, which corresponds to the VecScreen output. Download the `step_2_VecScreen/run_17000/expected_vecscreen_17000_output.tsv` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for this figure is found in the figure_2 folder as `expected_figure_2.png`.
+Go to the `step_5_figures/figure_2_vecscreen` folder.
+
+```sh
+cd step_5_figures/figure_2_vecscreen
+```
+
+The `generate_figure_2.R` script creates Figure 2, which corresponds to the VecScreen output. Download the `step_2_VecScreen/run_17000/expected_vecscreen_17000_output.tsv` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for this figure is found in the `step_5_figures/figure_2_vecscreen` folder as `expected_figure_2.png`.
 
 4. Create figure 3 
 
-The `generate_figure_3.R` script creates  Figure 3, which corresponds to the BLAST output. Download the `step_3_BlastHomoSapien/_parsed/pre_parsed_17000.tsv` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for this figure is found in the figure_2 folder as `expected_figure_3.png`.
+Go to the `step_5_figures/figure_3_blast` folder.
+
+```sh
+cd step_5_figures/figure_3_blast
+```
+
+The `generate_figure_3.R` script creates  Figure 3, which corresponds to the BLAST output. Download the `step_3_BlastHomoSapien/_parsed/pre_parsed_17000.tsv` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for this figure is found in the `step_5_figures/figure_3_blast` folder as `expected_figure_3.png`.
+
+
+5. Create figures 4a and 4b
+
+Go to the `step_5_figures/figure_4_FCS-GX` folder.
+
+```sh
+cd step_5_figures/figure_4_FCS-GX
+```
+
+The `generate_figure_4.R` script creates figures 4a and 4b, which corresponds to the FCS-GX output. Download the `step_5_figures/figure_4_FCS-GX/summary.txt` file and run the script in RStudio. Make sure your working directory in RStudio is set to the folder where you have placed the output file. The expected output for these figures are found in the `step_5_figures/figure_4_FCS-GX` folder as `expected_figure_4a.png` and `expected_figure_4a.png`.
