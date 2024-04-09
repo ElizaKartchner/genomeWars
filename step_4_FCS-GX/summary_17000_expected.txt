@@ -1,0 +1,210 @@
+#seq_id     	start_pos 	end_pos 	seq_len 	action      	div                     	agg_cont_cov 	top_tax_name
+NC_001270.2 	        1 	   6825 	   6825 	EXCLUDE     	prok:mycoplasmas        	         100 	Spiroplasma melliferum
+NC_001338.1 	        1 	   1708 	  15465 	TRIM        	arch:archaea            	         100 	Saccharolobus shibatae
+NC_001403.1 	        1 	   4788 	   4788 	EXCLUDE     	anml:birds              	          83 	Gallus gallus
+NC_001422.1 	        1 	   5386 	   5386 	EXCLUDE     	synt:synthetic          	         100 	synthetic
+NC_001499.1 	        1 	   5894 	   5894 	EXCLUDE     	anml:rodents            	          77 	Mus musculus
+NC_001503.1 	        1 	   8805 	   8805 	EXCLUDE     	anml:rodents            	          98 	Mus musculus
+NC_001609.1 	        1 	  11624 	  11624 	EXCLUDE     	prok:g-proteobacteria   	         100 	Escherichia fergusonii
+NC_001954.1 	        1 	   8454 	   8454 	EXCLUDE     	prok:g-proteobacteria   	          81 	Salmonella sp. 14
+NC_001978.3 	    37693 	  40212 	  41491 	FIX         	prok:high GC Gram+      	         100 	Saccharopolyspora spinosa
+NC_002628.3 	        1 	   1477 	  31007 	TRIM        	arch:archaea            	          94 	Methanothermobacter wolfeii
+NC_002628.3 	    28526 	  31007 	  31007 	TRIM        	arch:archaea            	         100 	Methanothermobacter wolfeii
+NC_002666.1 	    15970 	  20082 	  35538 	FIX         	prok:firmicutes         	         100 	Bavariicoccus seileri
+NC_002666.1 	    26435 	  28560 	  35538 	FIX         	prok:firmicutes         	         100 	Enterococcus villorum
+NC_002668.1 	    14195 	  28938 	  36949 	FIX         	prok:firmicutes         	          92 	Lactococcus hircilactis
+NC_002687.1 	        1 	 335593 	 335593 	EXCLUDE     	prst:algae              	          70 	Ectocarpus sp. Ec32
+NC_002939.5 	   290431 	 305969 	3814128 	REVIEW_RARE 	prok:b-proteobacteria   	          98 	Paucimonas lemoignei
+NC_003059.1 	        1 	   8072 	   8072 	EXCLUDE     	anml:mammals            	         100 	Sus scrofa
+NC_003157.5 	        1 	   1270 	  43106 	TRIM        	prok:firmicutes         	         100 	Streptococcus dysgalactiae
+NC_003216.1 	    16863 	  18972 	  40834 	FIX         	prok:firmicutes         	         100 	Listeria monocytogenes
+NC_003347.1 	     6767 	   7564 	   7564 	TRIM        	anml:crustaceans        	          94 	Eriocheir sinensis
+NC_003378.1 	        1 	   7767 	   7767 	EXCLUDE     	plnt:plants             	          96 	Nicotiana tabacum
+NC_004112.1 	    20419 	  22783 	  43411 	FIX         	prok:firmicutes         	          58 	Lacticaseibacillus casei
+NC_004305.1 	        1 	  42259 	  42259 	EXCLUDE     	prok:firmicutes         	          66 	Lactiplantibacillus pingfangensis
+NC_004462.2 	        1 	  19604 	  19604 	EXCLUDE     	prok:bacteria           	          92 	Thermus parvatiensis
+NC_004555.1 	      930 	   2399 	   2399 	TRIM        	fung:fungi              	          47 	Gigaspora rosea
+NC_005069.1 	    30748 	  46339 	  46339 	TRIM        	prok:g-proteobacteria   	          40 	Yersinia intermedia
+NC_005262.3 	    18238 	  20352 	  63882 	FIX         	prok:b-proteobacteria   	         100 	Paraburkholderia saeva
+NC_005354.1 	    13436 	  38384 	  38384 	TRIM        	prok:firmicutes         	          50 	Lactobacillus paragasseri
+NC_005355.1 	        1 	  40190 	  40190 	EXCLUDE     	prok:firmicutes         	          87 	Lactobacillus taiwanensis
+NC_005947.1 	        1 	   4302 	   4302 	EXCLUDE     	anml:birds              	          98 	Gallus gallus
+NC_005964.2 	        1 	  18855 	  18855 	EXCLUDE     	prok:mycoplasmas        	          94 	Mycoplasmopsis fermentans
+NC_006557.1 	        1 	  41092 	  41092 	EXCLUDE     	prok:firmicutes         	          69 	Oceanobacillus arenosus
+NC_006634.1 	        1 	   1441 	  14975 	TRIM        	anml:insects            	          86 	Cotesia glomerata
+NC_006634.1 	     7523 	  10054 	  14975 	FIX         	anml:insects            	          98 	Cotesia glomerata
+NC_006634.1 	    11702 	  13989 	  14975 	FIX         	anml:insects            	          67 	Cotesia glomerata
+NC_006635.1 	    24174 	  29874 	  29874 	TRIM        	anml:insects            	          92 	Cotesia glomerata
+NC_006637.1 	     6209 	   8339 	  14489 	FIX         	anml:insects            	          98 	Cotesia glomerata
+NC_006638.1 	        1 	   6001 	  15230 	TRIM        	anml:insects            	          98 	Cotesia glomerata
+NC_006639.1 	        1 	  24748 	  24748 	EXCLUDE     	anml:insects            	          80 	Cotesia glomerata
+NC_006640.1 	        1 	   5032 	   5032 	EXCLUDE     	anml:insects            	          77 	Cotesia glomerata
+NC_006641.1 	    15354 	  15959 	  15959 	TRIM        	anml:insects            	          96 	Cotesia glomerata
+NC_006643.1 	    11612 	  12903 	  12903 	TRIM        	anml:insects            	          89 	Cotesia glomerata
+NC_006646.1 	    11676 	  14119 	  31972 	FIX         	anml:insects            	          65 	Cotesia glomerata
+NC_006646.1 	    30334 	  31033 	  31972 	FIX         	anml:insects            	         100 	Cotesia glomerata
+NC_006650.1 	     7978 	  18768 	  18768 	TRIM        	anml:insects            	          84 	Cotesia glomerata
+NC_006652.1 	        1 	   4981 	   4981 	EXCLUDE     	anml:insects            	          47 	Cotesia glomerata
+NC_006653.1 	        1 	   7426 	  26062 	TRIM        	anml:insects            	          77 	Cotesia glomerata
+NC_006653.1 	    15238 	  22592 	  26062 	FIX         	anml:insects            	          71 	Cotesia glomerata
+NC_006654.1 	        1 	    931 	  13597 	TRIM        	anml:insects            	         100 	Cotesia glomerata
+NC_006655.1 	     1358 	   1889 	  15279 	FIX         	anml:insects            	         100 	Cotesia glomerata
+NC_006657.1 	     3462 	   4958 	  19820 	FIX         	anml:insects            	          78 	Cotesia glomerata
+NC_006657.1 	     9006 	  19820 	  19820 	TRIM        	anml:insects            	          76 	Cotesia glomerata
+NC_006658.1 	        1 	   8870 	  30655 	TRIM        	anml:insects            	          86 	Cotesia glomerata
+NC_006658.1 	    15445 	  19309 	  30655 	FIX         	anml:insects            	          93 	Cotesia glomerata
+NC_006659.1 	    34978 	  41573 	  41573 	TRIM        	anml:insects            	          97 	Cotesia glomerata
+NC_006661.1 	        1 	   7028 	  11186 	TRIM        	anml:insects            	          81 	Cotesia glomerata
+NC_006662.1 	     3908 	  10849 	  17477 	FIX         	anml:insects            	          89 	Cotesia glomerata
+NC_006956.1 	        1 	   1032 	   1032 	EXCLUDE     	plnt:plants             	          96 	Manihot esculenta
+NC_006957.1 	        1 	   1209 	   1209 	EXCLUDE     	plnt:plants             	          96 	Manihot esculenta
+NC_007030.2 	        1 	   4576 	   4576 	EXCLUDE     	anml:insects            	         100 	Microplitis demolitor
+NC_007031.1 	        1 	   7228 	   7228 	EXCLUDE     	anml:insects            	         100 	Microplitis demolitor
+NC_007033.1 	        1 	   7823 	   7823 	EXCLUDE     	anml:insects            	          37 	Microplitis demolitor
+NC_007035.1 	        1 	  11238 	  11238 	EXCLUDE     	anml:insects            	         100 	Microplitis demolitor
+NC_007036.1 	        1 	  13704 	  13704 	EXCLUDE     	anml:insects            	         100 	Microplitis demolitor
+NC_007039.1 	        1 	  17355 	  17355 	EXCLUDE     	anml:insects            	         100 	Microplitis demolitor
+NC_007040.1 	        1 	  15096 	  15096 	EXCLUDE     	anml:insects            	          47 	Microplitis demolitor
+NC_007044.1 	        1 	  34334 	  34334 	EXCLUDE     	anml:insects            	          76 	Microplitis demolitor
+NC_007055.1 	        1 	  43681 	  43681 	EXCLUDE     	prok:firmicutes         	          84 	Staphylococcus condimenti
+NC_007615.1 	        1 	  18871 	  18871 	EXCLUDE     	prok:g-proteobacteria   	          39 	Candidatus Competibacter denitrificans
+NC_007654.1 	        1 	  10305 	  10305 	EXCLUDE     	anml:fishes             	          64 	Salmo salar
+NC_007902.1 	        1 	  52162 	  52162 	EXCLUDE     	prok:g-proteobacteria   	          55 	Sodalis glossinidius
+NC_007912.1 	  1662304 	1682310 	5057531 	REVIEW_RARE 	prok:planctomycetes     	          85 	Gimesia alba
+NC_007967.1 	        1 	  38194 	  38194 	EXCLUDE     	prok:high GC Gram+      	          47 	Kitasatospora humi
+NC_008095.1 	  4730835 	4807034 	9139763 	REVIEW_RARE 	prok:firmicutes         	          46 	Methylomusa anaerophila
+NC_008193.1 	        1 	  30505 	  30505 	EXCLUDE     	prok:g-proteobacteria   	          81 	Canicola haemoglobinophilus
+NC_008265.1 	        1 	  38092 	  38092 	EXCLUDE     	prok:firmicutes         	          29 	Romboutsia hominis
+NC_008695.1 	        1 	  42271 	  42271 	EXCLUDE     	arch:archaea            	          82 	Halorubrum rubrum
+NC_009016.1 	        1 	   5225 	  38197 	TRIM        	prok:g-proteobacteria   	          87 	Marinobacterium jannaschii
+NC_009016.1 	    13986 	  19222 	  38197 	FIX         	prok:g-proteobacteria   	          91 	Spartinivicinus ruber
+NC_009237.1 	    19637 	  23978 	  37446 	FIX         	prok:b-proteobacteria   	          90 	Burkholderia pseudomallei
+NC_009603.1 	        1 	  46365 	  46365 	EXCLUDE     	prok:high GC Gram+      	          50 	Microbacterium algeriense
+NC_009793.1 	        1 	   9294 	   9294 	EXCLUDE     	prok:high GC Gram+      	          77 	Arthrobacter mobilis
+NC_009794.1 	        1 	   5601 	   5601 	EXCLUDE     	prok:high GC Gram+      	          98 	Arthrobacter mobilis
+NC_009810.1 	    21108 	  23310 	  38867 	FIX         	prok:firmicutes         	         100 	Listeria monocytogenes
+NC_009889.1 	        1 	   8406 	   8406 	EXCLUDE     	anml:mammals            	         100 	Felis catus
+NC_010355.1 	        1 	  62337 	  62337 	EXCLUDE     	prok:a-proteobacteria   	         100 	Azospirillum brasilense
+NC_010955.1 	        1 	  10207 	  10207 	EXCLUDE     	anml:amphibians         	          98 	Xenopus laevis
+NC_011216.1 	        1 	  37635 	  37635 	EXCLUDE     	prok:b-proteobacteria   	          87 	Burkholderia thailandensis
+NC_011357.1 	    60965 	  62147 	  62147 	TRIM        	prok:g-proteobacteria   	         100 	Escherichia coli
+NC_011373.1 	        1 	   1856 	  46872 	TRIM        	prok:g-proteobacteria   	         100 	Pseudomonas nitroreducens
+NC_011589.1 	        1 	  40287 	  40287 	EXCLUDE     	prok:g-proteobacteria   	          86 	Stenotrophomonas cyclobalanopsidis
+NC_011801.1 	        1 	  38934 	  38934 	EXCLUDE     	prok:firmicutes         	          96 	Lactobacillus jensenii
+NC_013055.1 	        1 	   3600 	  39896 	TRIM        	prok:b-proteobacteria   	          51 	Burkholderia cepacia
+NC_013132.1 	  6721006 	6739674 	9127347 	REVIEW_RARE 	prok:firmicutes         	          55 	Dendrosporobacter quercicolus
+NC_013585.1 	    10716 	  14548 	  24186 	FIX         	arch:archaea            	          77 	Acidianus brierleyi
+NC_013597.1 	    29185 	  31597 	  43970 	FIX         	prok:g-proteobacteria   	          90 	Aggregatibacter segnis
+NC_013599.1 	        1 	  36674 	  36674 	EXCLUDE     	prok:g-proteobacteria   	          54 	Xylella fastidiosa
+NC_014014.1 	   537813 	 541690 	 934379 	FIX         	fung:chytrids           	          30 	Anaeromyces robustus
+NC_014974.1 	  1573282 	1583341 	2346803 	REVIEW_RARE 	prok:proteobacteria     	         100 	Hydrogenophilus sp.
+NC_015209.1 	     8739 	  10638 	  10638 	TRIM        	prok:g-proteobacteria   	          96 	Vibrio cholerae
+NC_015230.1 	        1 	  19063 	  19063 	EXCLUDE     	prst:protists           	          95 	Cafeteria roenbergensis
+NC_015295.1 	        1 	    736 	  47279 	TRIM        	prok:g-proteobacteria   	          92 	Yersinia similis
+NC_015586.1 	        1 	   5819 	   5819 	EXCLUDE     	prok:firmicutes         	          94 	Ligaoa zhengdingensis
+NC_015657.1 	        1 	   5448 	   5448 	EXCLUDE     	fung:budding yeasts     	         100 	Kluyveromyces marxianus
+NC_016158.1 	        1 	  49576 	  49576 	EXCLUDE     	prok:g-proteobacteria   	          86 	Citrobacter sedlakii
+NC_016652.1 	     1263 	   1925 	  49330 	FIX         	prok:high GC Gram+      	         100 	Prescottella equi
+NC_016652.1 	    28214 	  49330 	  49330 	TRIM        	prok:high GC Gram+      	          51 	Prescottella equi
+NC_017170.1 	        1 	   8431 	   8431 	EXCLUDE     	prok:firmicutes         	         100 	Amphibacillus jilinensis
+NC_018454.1 	        1 	  39974 	  39974 	EXCLUDE     	prok:g-proteobacteria   	          90 	Cronobacter sakazakii
+NC_018843.1 	        1 	 103299 	 103299 	EXCLUDE     	prok:g-proteobacteria   	          97 	Kluyvera sichuanensis
+NC_019455.1 	        1 	  37151 	  37151 	EXCLUDE     	prok:g-proteobacteria   	          97 	Glaesserella parasuis
+NC_019489.1 	        1 	  41726 	  41726 	EXCLUDE     	prok:firmicutes         	          92 	Lactiplantibacillus plantarum
+NC_019522.1 	        1 	  48454 	  48454 	EXCLUDE     	prok:g-proteobacteria   	          85 	Candidatus Symbiopectobacterium endolongispinus
+NC_019544.1 	        1 	    570 	  49335 	TRIM        	prok:firmicutes         	         100 	Parageobacillus caldoxylosilyticus
+NC_019544.1 	     8310 	  12898 	  49335 	FIX         	prok:firmicutes         	          93 	Parageobacillus caldoxylosilyticus
+NC_019782.1 	        1 	  36566 	  36566 	EXCLUDE     	prok:firmicutes         	          55 	Lactobacillus gigeriorum
+NC_019927.1 	        1 	  22443 	  47611 	TRIM        	prok:g-proteobacteria   	          59 	Cronobacter sakazakii
+NC_020199.1 	        1 	    522 	  47252 	TRIM        	prok:firmicutes         	         100 	Staphylococcus argenteus
+NC_021070.1 	        1 	  33277 	  33277 	EXCLUDE     	prok:g-proteobacteria   	          90 	Vibrio europaeus
+NC_021325.1 	    36425 	  39108 	  39108 	TRIM        	prok:firmicutes         	          65 	Clostridium sp. UBA3875
+NC_021343.1 	        1 	  35430 	  35430 	EXCLUDE     	prok:b-proteobacteria   	          95 	Burkholderia stabilis
+NC_021557.1 	        1 	  37378 	  37378 	EXCLUDE     	prok:a-proteobacteria   	          93 	Rhizobium oryzihabitans
+NC_021558.1 	        1 	  37644 	  37644 	EXCLUDE     	prok:firmicutes         	          66 	Paenibacillus bouchesdurhonensis
+NC_021560.1 	        1 	  53102 	  53102 	EXCLUDE     	prok:a-proteobacteria   	          62 	Rhizobium daejeonense
+NC_021784.1 	        1 	  38099 	  38099 	EXCLUDE     	prok:firmicutes         	          94 	Geobacillus stearothermophilus
+NC_021800.1 	        1 	  34844 	  34844 	EXCLUDE     	prok:CFB group bacteria 	          37 	Maribacter dokdonensis
+NC_021865.1 	    22773 	  25039 	  41294 	FIX         	prok:firmicutes         	          98 	Vallitalea guaymasensis
+NC_021886.1 	        1 	   5458 	   5458 	EXCLUDE     	anml:insects            	          83 	Diaphorina citri
+NC_022914.1 	        1 	  43394 	  43394 	EXCLUDE     	prok:firmicutes         	          80 	Staphylococcus saprophyticus
+NC_022972.2 	        1 	  21699 	  37372 	TRIM        	prok:high GC Gram+      	          58 	Arthrobacter terricola
+NC_023423.1 	   513329 	 515910 	 610033 	FIX         	fung:ascomycetes        	          85 	Bogoriella megaspora
+NC_023500.1 	        1 	    797 	  43301 	TRIM        	prok:firmicutes         	         100 	Staphylococcus aureus
+NC_023503.1 	        1 	   1668 	  48800 	TRIM        	prok:firmicutes         	         100 	Streptococcus thermophilus
+NC_023503.1 	    44043 	  48800 	  48800 	TRIM        	prok:firmicutes         	         100 	Streptococcus thermophilus
+NC_023588.1 	        1 	  33525 	  33525 	EXCLUDE     	prok:g-proteobacteria   	          96 	Stenotrophomonas pavanii
+NC_023639.1 	  1168478 	1168989 	1168989 	TRIM        	prok:g-proteobacteria   	          55 	Acinetobacter lwoffii
+NC_023734.1 	        1 	  35725 	  35725 	EXCLUDE     	prok:g-proteobacteria   	          92 	Psychrobacter sp. UBA6291
+NC_024144.1 	    32250 	  34335 	  54279 	FIX         	prok:firmicutes         	         100 	Clostridioides difficile
+NC_025218.2 	        1 	   8021 	   8021 	EXCLUDE     	anml:insects            	          63 	Leptopilina boulardi
+NC_025427.1 	        1 	  54506 	  54506 	EXCLUDE     	prok:a-proteobacteria   	          60 	Rhizobium leguminosarum
+NC_027117.1 	        1 	  10485 	  10485 	EXCLUDE     	anml:mammals            	          97 	Phyllostomus discolor
+NC_027197.1 	        1 	   3753 	   3753 	EXCLUDE     	prst:algae              	         100 	Phytophthora parasitica
+NC_027334.1 	        1 	  47800 	  47800 	EXCLUDE     	prok:a-proteobacteria   	          56 	Aurantimonas aggregata
+NC_027990.1 	        1 	  48211 	  48211 	EXCLUDE     	prok:firmicutes         	          89 	Levilactobacillus tongjiangensis
+NC_028268.1 	        1 	  38049 	  38049 	EXCLUDE     	arch:archaea            	          59 	Aeropyrum pernix
+NC_028376.1 	        1 	  18697 	  18697 	EXCLUDE     	anml:crustaceans        	          47 	Amphibalanus amphitrite
+NC_028663.1 	        1 	 188632 	 188632 	EXCLUDE     	prok:CFB group bacteria 	          98 	Nonlabens xiamenensis
+NC_028749.1 	        1 	 134270 	 134270 	EXCLUDE     	prok:firmicutes         	          56 	Paenibacillus vietnamensis
+NC_028766.1 	        1 	  33755 	  33755 	EXCLUDE     	prok:g-proteobacteria   	         100 	Mannheimia haemolytica
+NC_028841.1 	        1 	   2197 	  44952 	TRIM        	prok:firmicutes         	         100 	Paenibacillus larvae
+NC_028871.1 	    21141 	  23413 	  38392 	FIX         	prok:firmicutes         	          67 	Listeria innocua
+NC_028886.1 	    37355 	  38663 	  38663 	TRIM        	prok:firmicutes         	          64 	Bacillus cytotoxicus
+NC_028936.1 	    31664 	  33915 	  59052 	FIX         	prok:high GC Gram+      	         100 	Flavimobilis soli
+NC_028956.1 	        1 	  25281 	  52139 	TRIM        	prok:g-proteobacteria   	          98 	Mannheimia haemolytica
+NC_029006.1 	        1 	  35703 	  35703 	EXCLUDE     	prok:firmicutes         	          74 	Clostridium tetani
+NC_029046.1 	        1 	  50827 	  50827 	EXCLUDE     	prok:a-proteobacteria   	          69 	Sinorhizobium medicae
+NC_029066.1 	        1 	  48666 	  48666 	EXCLUDE     	prok:g-proteobacteria   	          42 	Pseudomonas songnenensis
+NC_029068.1 	        1 	  31703 	  31703 	EXCLUDE     	prok:firmicutes         	          76 	Candidatus Limosilactobacillus intestinavium
+NC_030902.1 	        1 	  41207 	  41207 	EXCLUDE     	prok:high GC Gram+      	          32 	Gordonia malaquae
+NC_030916.1 	        1 	  56212 	  56212 	EXCLUDE     	prok:high GC Gram+      	          32 	Mycolicibacterium mucogenicum
+NC_030939.1 	        1 	  45537 	  45537 	EXCLUDE     	prok:high GC Gram+      	          55 	Gordonia malaquae
+NC_030940.1 	        1 	  32637 	  32637 	EXCLUDE     	prok:g-proteobacteria   	          85 	Stutzerimonas kunmingensis
+NC_030945.1 	        1 	  39873 	  39873 	EXCLUDE     	prok:firmicutes         	          83 	Alkalihalobacillus alcalophilus
+NC_030949.1 	        1 	  47020 	  47020 	EXCLUDE     	prok:firmicutes         	         100 	Clostridium tetani
+NC_030950.1 	        1 	  47020 	  47020 	EXCLUDE     	prok:firmicutes         	         100 	Clostridium tetani
+NC_031016.1 	        1 	    739 	  40273 	TRIM        	prok:firmicutes         	          57 	Lactococcus petauri
+NC_031016.1 	     4055 	   6624 	  40273 	FIX         	prok:firmicutes         	          73 	Lactococcus garvieae
+NC_031036.1 	    22047 	  35068 	  35068 	TRIM        	prok:firmicutes         	          69 	Lacticaseibacillus paracasei
+NC_031059.1 	        1 	  38773 	  38773 	EXCLUDE     	prok:a-proteobacteria   	          44 	Salipiger abyssi
+NC_031098.1 	    39904 	  40749 	  40749 	TRIM        	prok:g-proteobacteria   	          98 	Acinetobacter wanghuae
+NC_031129.1 	    58858 	  67071 	 103445 	FIX         	prok:g-proteobacteria   	         100 	Salmonella enterica subsp. enterica serovar Meleagridis
+NC_031264.1 	        1 	  46877 	  46877 	EXCLUDE     	prok:a-proteobacteria   	          64 	Brucella daejeonensis
+NC_031285.1 	     4553 	   5147 	   5147 	TRIM        	anml:insects            	          97 	Dermacentor silvarum
+NC_031691.1 	        1 	  11238 	  11238 	EXCLUDE     	anml:insects            	          50 	Aricia agestis
+NC_032519.1 	        1 	   1580 	   1580 	EXCLUDE     	anml:crustaceans        	          85 	Amphibalanus amphitrite
+NC_033249.1 	        1 	   2892 	   2892 	EXCLUDE     	anml:insects            	          91 	Coccinella septempunctata
+NC_038279.1 	        1 	   1546 	  12790 	TRIM        	anml:insects            	          90 	Drosophila rhopaloa
+NC_038512.1 	        1 	   7510 	   7510 	EXCLUDE     	anml:insects            	         100 	Trichoplusia ni
+NC_038668.1 	        1 	    997 	    997 	EXCLUDE     	anml:rodents            	          82 	Mus musculus
+NC_039228.1 	        1 	   8431 	   8431 	EXCLUDE     	anml:marsupials         	         100 	Phascolarctos cinereus
+NC_040712.1 	        1 	   8139 	   8139 	EXCLUDE     	plnt:plants             	          63 	Dioscorea cayenensis
+NC_041868.1 	        1 	  38261 	  38261 	EXCLUDE     	prok:a-proteobacteria   	          43 	Paracoccus bogoriensis
+NC_042057.1 	        1 	   1856 	  42925 	TRIM        	prok:g-proteobacteria   	         100 	Escherichia coli
+NC_043404.1 	        1 	   1928 	   1928 	EXCLUDE     	anml:birds              	          91 	Gallus gallus
+NC_043491.1 	        1 	   7396 	   7396 	EXCLUDE     	fung:ascomycetes        	         100 	Fulvia fulva
+NC_043644.1 	        1 	   1906 	   1906 	EXCLUDE     	anml:insects            	          96 	Megachile rotundata
+NC_047790.1 	        1 	  35209 	  35209 	EXCLUDE     	prok:g-proteobacteria   	          88 	Pseudoalteromonas nigrifaciens
+NC_047851.1 	        1 	  50774 	  50774 	EXCLUDE     	prok:high GC Gram+      	          41 	Brevibacterium aurantiacum
+NC_047854.1 	        1 	  28765 	  28765 	EXCLUDE     	prok:g-proteobacteria   	         100 	Cronobacter sakazakii
+NC_047861.1 	        1 	  94005 	  94005 	EXCLUDE     	prok:a-proteobacteria   	          33 	Geminicoccus harenae
+NC_047905.1 	        1 	  41872 	  41872 	EXCLUDE     	prok:high GC Gram+      	          71 	Streptomyces gilvosporeus
+NC_047910.1 	        1 	  49573 	  49573 	EXCLUDE     	prok:firmicutes         	          41 	Dorea acetigenes
+NC_047911.1 	        1 	  48211 	  48211 	EXCLUDE     	prok:firmicutes         	         100 	Faecalibacterium duncaniae
+NC_047912.1 	        1 	  34075 	  34075 	EXCLUDE     	prok:firmicutes         	          81 	Faecalibacterium sp. LMAG:44
+NC_047913.1 	        1 	  36636 	  36636 	EXCLUDE     	prok:firmicutes         	         100 	Faecalibacterium duncaniae
+NC_047914.1 	        1 	  54286 	  54286 	EXCLUDE     	prok:firmicutes         	          43 	Yanshouia hominis
+NC_047916.1 	        1 	  58391 	  58391 	EXCLUDE     	prok:firmicutes         	          61 	Faecalibacterium hattorii
+NC_047958.1 	        1 	   8226 	  42250 	TRIM        	prok:b-proteobacteria   	          62 	Pandoraea sp. CB10b_02
+NC_047983.1 	        1 	  43416 	  43416 	EXCLUDE     	prok:firmicutes         	          92 	Levilactobacillus cerevisiae
+NC_048070.1 	        1 	  41394 	  41394 	EXCLUDE     	prok:high GC Gram+      	          37 	Corynebacterium freneyi
+NC_048160.1 	        1 	  16159 	  16159 	EXCLUDE     	arch:archaea            	          88 	Halorubrum sodomense
+NC_048640.1 	        1 	   2143 	  50740 	TRIM        	prok:firmicutes         	          81 	Bacillus pacificus
+NC_048640.1 	    22423 	  24471 	  50740 	FIX         	prok:firmicutes         	          91 	Bacillus fungorum
+NC_048640.1 	    46597 	  50740 	  50740 	TRIM        	prok:firmicutes         	          78 	Bacillus anthracis
+NC_048735.1 	        1 	  58528 	  58528 	EXCLUDE     	prok:firmicutes         	          42 	Brevibacillus fulvus
+NC_048834.1 	        1 	  43236 	  43236 	EXCLUDE     	prok:CFB group bacteria 	          46 	Flavobacterium denitrificans
+NC_048892.1 	        1 	  73623 	  73623 	EXCLUDE     	prok:bacteria           	          87 	Leptospira bandrabouensis
+NC_049429.1 	        1 	  31978 	  31978 	EXCLUDE     	prok:g-proteobacteria   	          92 	Mixta intestinalis
+NC_049450.1 	        1 	  38322 	  38322 	EXCLUDE     	prok:g-proteobacteria   	          90 	Klebsiella sp.
