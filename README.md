@@ -12,23 +12,30 @@ Repo for Bio 465 capstone project to test for genome contamination in microbial 
 ## Step 0: Downloading genomes 
 
 1. Create a conda env with the required packages using the data_requirements.txt that is found in the data folder.
-`conda create --name download_genomes --file data_requirements.txt`
-`conda activate download_genomes`
+
+```sh
+conda create --name download_genomes --file data_requirements.txt
+conda activate download_genomes
+```
 
 2. Download the data for the 9 genera 
 Sequence ids where found using this website: https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=674962
 
 Go into the `step_0_data` folder. Run the download_accession_number_9_genera.py script as follows: 
 
-`python download_accession_numbers_9_genera.py --email your.email@email.com`
+```sh
+python download_accession_numbers_9_genera.py --email your.email@email.com
+```
 
-This script should take less than 10 minutes to download the genomes and it will download about 45 genomes. The accession numbers for this genomes can be found in the `accession_numbers_9_genera.csv` file. Alternatively, one can use the genomes that have already been downloaded in the `step_0_data/microbial_genomes_9_genera` folder. 
+This script should take less than 10 minutes to download the genomes and it will download about 45 genomes. The accession numbers for these genomes can be found in the `accession_numbers_9_genera.csv` file. Alternatively, one can use the genomes that have already been downloaded in the `step_0_data/microbial_genomes_9_genera` folder. 
 
 3. Download the data for the 17868 genomes
 
 Go into the `step_0_data` folder. Run the download_microbe_genomes_fasta.py script to download the 17000 genomes to the folder called `microbial_genomes_17000`. This script takes about 5 hours to run. This script downloads the accession numbers found in the `NCBI_sequenceIDs_NC.txt` file. Note for TA: The genomes are already downloading into the `microbial_genomes_17000` folder on the supercomputer. 
 
-`python download_microbe_genomes_fasta.py --email your.email@email.com`
+```sh
+python download_microbe_genomes_fasta.py --email your.email@email.com
+```
 
 
 ## Step 1: Run the GUNC algorithm 
@@ -197,6 +204,7 @@ makeblastdb -in ./GRCh38_latest_genomic.fna -dbtype nucl -title GRCh38_latest_ge
 This creates a number of files, including a .njs file containing the database metadata. You're now ready to run BLAST analysis against the human genome.
 
 4. After this step, make sure to go back to the `step_3_BlastHomoSapien` folder. All commands remaining for step 3 will be done from this folder.
+
 ```sh
 cd ..
 ```
@@ -242,14 +250,14 @@ python3 parse_xml_output.py ./pre_results_17000 ./_parsed/parsed_17000.tsv
 1. Go to the step_4_FSC-GX folder 
 
 ```sh 
-cd step_4_FSC-GX
+cd $HOME/fsl_groups/grp_Bio465_GenomeWars/compute/genomeWars/step_4_FSC-GX
 ``` 
 
-2. The easiest way to run FCS-GX is to run the `step_4_RUN_ALL.sh` script inside of the step_4_FCS-GX directory. This script will run through all the other steps for FSC-GX. It takes a max of 12 hours for the 17000 genomes.
+2. The easiest way to run FCS-GX is to run the `step_4_RUN_ALL.sh` script inside of the step_4_FCS-GX directory. This script will automatically run through all the other steps for FSC-GX. It takes 20 seconds to get taxids for every 100 genomes, 12-20 minutes to load the database and then it can scan around 2000 genomes per hour. It will scan the "9 genera" folder in about 30 minutes, and it takes a max of 12 hours for the 17000 genomes.
 
-In order to run this script you will need to pass it the directory of where the genomes are located as well as your email. 
+In order to run this script you will need to pass it the directory of where the genomes are located as well as your email.
 
-Run the script with the 9 genera (max 1 hour)
+Run the script with the 9 genera (max 30-45 mins)
 ```sh
 ./step_4_RUN_ALL.sh ../step_0_data/microbial_genomes_9_genera/ your.email@email.com
 ```
@@ -259,9 +267,14 @@ Run the script with the 17000 genomes (max 12 hours)
 ./step_4_RUN_ALL.sh ../step_0_data/microbial_genomes_17000/ your.email@email.com
 ```
 
-The output files of these scripts can be found in `step_4_FCS-GX/reports`. For every genome there will be an rpt file and a txt file in the reports folder. A two summary files of these results can be found in `step_4_FCS-GX/summary.rpt` and `step_4_FCS-GX/summary.txt`. 
+**NOTE: The database is already downloaded on the supercomputer, but if someone later gets this from github and needs to download the database too, run either of the above commands with a `-f` after them, like:**
+```sh
+./step_4_RUN_ALL.sh ../step_0_data/microbial_genomes_9_genera/ your.email@email.com -f
+```
 
-The expected output files are called `summary_17000_expected.rpt` and `summary_17000_expected.rpt` for the 17000. For the 9 genera the files are called `summary_9_genera_expected.rpt` and `summary_9_genera_expected.txt`
+The output files of these scripts can be found in `step_4_FCS-GX/reports`. For every genome there will be an rpt file and a txt file in the reports folder. We provide two summary files of these results which can be found in `step_4_FCS-GX/summary.rpt` and `step_4_FCS-GX/summary.tsv`. The .rpt file is a complete summary of each genome, occasionally split into sections, where it tells what the top taxonomic matches were for that sequence. If there is a discrepancy between what it finds and what it should be, it takes that genome and puts it in the .txt file with a recommendation of what action to take based on how contaminated that file is (e.g. trim that part off, review the genome, or exclude the genome entirely).
+
+The expected output files are called `summary_17000_expected.rpt` and `summary_17000_expected.rpt` for the 17000. For the 9 genera the files are called `summary_9_genera_expected.rpt` and `summary_9_genera_expected.tsv` (which shouldn't have any genomes in it).
 
 
 ## Step 5: Create Figures
