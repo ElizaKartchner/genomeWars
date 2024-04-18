@@ -6,7 +6,7 @@ export VIRTUAL_DIR="/dev/shm"
 export REPORTS_DIR="$PROJECT_DIR/reports"
 export LOGGING_DIR="$PROJECT_DIR/logs/gx"
 export SLURM_DIR="$PROJECT_DIR/logs/slurm"
-export SUMMARY_CONDENSED_FILE="$PROJECT_DIR/summary.txt"
+export SUMMARY_CONDENSED_FILE="$PROJECT_DIR/summary.tsv"
 export SUMMARY_FULL_FILE="$PROJECT_DIR/summary.rpt"
 
 # Default supercomputer parameters

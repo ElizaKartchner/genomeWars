@@ -1,4 +1,5 @@
 library(tidyverse) 
+library(scales)
 
 unique_sequences = read_csv("unique_sequences.csv")
 
@@ -14,7 +15,8 @@ figure_5 = ggplot(unique_sequences, aes(x=eVal, y=Num_Unique_Sequences)) +
   theme_bw() + 
   ylab("Number of Unique Sequences") + 
   xlab("E-value") + 
-  scale_x_log10(labels = scales::scientific_format(), breaks = values) 
+  #scale_x_log10(labels = scales::scientific_format(), breaks = values) + 
+  scale_x_continuous(trans  = compose_trans("log10", "reverse"), breaks = values)
 
 figure_5
 
