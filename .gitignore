@@ -23,7 +23,5 @@ step_4_FCS-GX/contaminated/*
 step_4_FCS-GX/summary.rpt
 step_4_FCS-GX/summary.tsv
 step_4_FCS-GX/summary_17000_contaminants.rpt
-step_4_FCS-GX/summary_17000_expected.tsv
 step_4_FCS-GX/summary_17000_primates.rpt
-step_4_FCS-GX/summary_9_genera_expected.tsv
 step_4_FCS-GX/test_mapping.out
